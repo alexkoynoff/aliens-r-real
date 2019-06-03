@@ -2,7 +2,7 @@
 var tableData = data;
 //console.log(data);
 
-
+/////*** ADD ALL RECORDS FROM DATA.JS TO TABLE IN HTML ***/////
 var tbody = d3.select("tbody")
 
 var table = d3.select("table");
@@ -20,7 +20,7 @@ data.forEach(function(aliensInfo) {
   });
 });
 
-/////***/FILTER BY DATES SECTION***/////
+/////*** FILTER BY DATES SECTION ***/////
 
 
 // Select the submit button
