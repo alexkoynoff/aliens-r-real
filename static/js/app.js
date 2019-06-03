@@ -14,7 +14,7 @@ data.forEach(function(aliensInfo) {
   var row = tbody.append("tr");
   Object.entries(aliensInfo).forEach(function([key, value]) {
     //console.log(key, value);
-    // Append a cell to the row for each value in the aliensInfo object
+    // Append a cell to the row for each value in aliensInfo
     var cell = row.append("td");
     cell.text(value);
   });
